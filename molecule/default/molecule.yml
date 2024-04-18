@@ -2,7 +2,7 @@
 driver:
   name: docker
 lint: |
-#  ansible-lint .
+  ansible-lint .
   yamllint .
 platforms:
   - name: centos7
